@@ -1,0 +1,27 @@
+.restaurant-container {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  flex-wrap: wrap;
+}
+
+.resturent-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 220px;
+  padding: 12px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  color: black; /* Font color set to black */
+}
+
+.resturent-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.resturent-card-details {
+  margin-top: 8px;
+}
